@@ -13,13 +13,13 @@ function myFunction() {
             li[i].style.display = "none";
         }
     }
-}
+};
 
 
 
 function setVisibility(id, visibility) {
 document.getElementById(id).style.display = visibility;
-}
+};
 
 
 
