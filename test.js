@@ -1,0 +1,1 @@
+document.getElementById("sty").style.color = "red";
