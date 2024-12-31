@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+#flashimg { 
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  display: block;
+  position: relative;
+  content: url(https://drive.google.com/uc?export=download&id=1XsOd9kH8M5-fjJQHcpIUrDc5Pnm3S8f7);
+  }
+
+#onlineheader::before { 
+content: "॥ विठ्ठल अमुचे जिवन ॥" ;
+font-size: 16px;
+padding: 10px;
+white-space: pre; 
+color:  #FFF;
+font-weight: bold;
+background-color: var(--BgCo);
+display: block;  
+font-family: 'Gotu', sans-serif;
+border-radius: 10px 10px 0 0;
+ }
+ 
+#news {
+margin: 20px 10px 20px 10px;
+color: #8D4100;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Gotu', sans-serif;
+  text-shadow: 3px 3px 2px #D1D1D1;
+}
+
+#newLnk {
+padding: 10px;
+background-color: var(--BgCo);
+border-radius: 0px 0px 10px 10px;
+text-align: center;
+  color:  #ffffff;
+  font-size:18px;
+ text-decoration: none;
+}
+#newLnk::before{content: "सर्व वारकरी भाविकांसाठी उपयुक्त \Aभजनी मालिका"}
+  
+  
+  #onlineSms {
+border-radius: 10px;
+background-color: #ffffff;
+  border: none;
+  box-shadow: #B4B3B4 2px 2px 10px 3px;
+  margin: 30px 15px 15px 15px;
+  padding: 0px;
+  display: block;
+  }
+ #news::before, #news::after {
+ 	
+     font-size:12px;
+     white-space: pre-line; 
+     font-weight: 600;  
+ }
+
+#news::first-letter {
+color:  #D18400;
+}
+
+#news::before {
+content: "❝ राजस सुकुमार मदनाचा पुतळा॥ \A रवि शशी कळा लोपलिया ॥ ❞ \A" } 
+
+
+#news::after {
+	color:  #FF00B2;
+content: "राम कृष्ण हरी !"
+} 
+
+#infoabout a {  
+text-decoration:none;
+color:#5AB300;
+font-size:20px}
+
+   :root {
+   --BgCo: #0DB1B2;
+  }
+ 
