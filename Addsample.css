@@ -1,3 +1,5 @@
+body{color:#FFF}*{box-sizing:border-box;margin:0;padding:0}
+ 
 @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 
 #flashimg { 
@@ -6,29 +8,34 @@
   width: 100%;
   display: block;
   position: relative;
-  content: url(https://drive.google.com/uc?export=download&id=1XsOd9kH8M5-fjJQHcpIUrDc5Pnm3S8f7);
+  content: url(https://drive.google.com/uc?export=download&id=13sacMmyyXu-8cZ-vu3-AS-VEMGIscuIt);
   }
 
 #onlineheader::before { 
 content: "॥ विठ्ठल अमुचे जिवन ॥" ;
+ }
+#onlineheader { 
 font-size: 16px;
 padding: 10px;
 white-space: pre; 
-color:  #FFF;
+color:  var(--FCo);
 font-weight: bold;
 background-color: var(--BgCo);
 display: block;  
 font-family: 'Gotu', sans-serif;
 border-radius: 10px 10px 0 0;
+background-image:-webkit-linear-gradient(bottom,transparent 0,#FF0091 50%,#FF0091 100%);background-image:linear-gradient(to top,transparent 0,#FF0091 50%,#FF0091 100%); text-align:center; z-index:1
  }
  
 #news {
-margin: 20px 10px 20px 10px;
-color: #8D4100;
+margin: 0px 0px 0px 0px;
+color: #ffffff;
   font-size: 18px;
   font-weight: bold;
   font-family: 'Gotu', sans-serif;
   text-shadow: 3px 3px 2px #D1D1D1;
+  
+  background-image:-webkit-linear-gradient(top,transparent 0,#9100BE 50%,#9100BE 100%);background-image:linear-gradient(to bottom,transparent 0,#9100BE 50%,#9100BE 100%);z-index:2
 }
 
 #newLnk {
@@ -36,7 +43,7 @@ padding: 10px;
 background-color: var(--BgCo);
 border-radius: 0px 0px 10px 10px;
 text-align: center;
-  color:  #ffffff;
+  color:  var(--FCo);
   font-size:18px;
  text-decoration: none;
 }
@@ -45,7 +52,7 @@ text-align: center;
   
   #onlineSms {
 border-radius: 10px;
-background-color: #ffffff;
+background-color: #FFF9C4;
   border: none;
   box-shadow: #B4B3B4 2px 2px 10px 3px;
   margin: 30px 15px 15px 15px;
@@ -69,15 +76,11 @@ content: "❝ राजस सुकुमार मदनाचा पुतळ
 
 #news::after {
 	color:  #FF00B2;
-content: "राम कृष्ण हरी !"
+content: "राम कृष्ण हरी"
 } 
 
-#infoabout a {  
-text-decoration:none;
-color:#5AB300;
-font-size:20px}
 
    :root {
-   --BgCo: #0DB1B2;
-  }
- 
+   --BgCo: #FFEB3B;
+   --FCo: #ffffff
+   }
